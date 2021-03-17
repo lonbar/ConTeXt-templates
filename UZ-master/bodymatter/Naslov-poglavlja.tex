@@ -1,0 +1,41 @@
+\startcomponent Naslov-poglavlja
+    
+    \product rad
+
+    \startchapter[title=Naslov poglavlja]
+
+        \startsection[title=Podnaslov]
+
+            \startsubsection[title=Podpodnaslov]
+                
+                \startsubsubsection[title=Podpodpodnaslov]
+                    
+                    Tekst vezan uz jednadžbu \eqref[1]
+                    \placeformula[1]
+                    \startformula
+                        x = y.
+                    \stopformula
+                    Za svaku novu jednadžbu kopirati prethodnu tablicu \cite[Maxwell:1861]. 
+                    Nakon toga označiti cijeli tekst (Select All) i osvježiti ažurirati tablice (Update Field).
+                    \placefigure
+                        []
+                        [slika]
+                        {Kako ubaciti referencu jednadžbe u tekst}
+                        {\externalfigure[resources/pdf/cow.pdf][width=0.6\textwidth]}
+
+                    Tekst vezan uz jednadžbu \eqref[2]
+                    \placeformula[2]
+                    \startformula
+                        x_1 = \frac{4}{5}y.
+                    \stopformula
+                    Slika \figref[slika]
+
+                \stopsubsubsection
+
+            \stopsubsection
+
+        \stopsection
+
+    \stopchapter
+
+\stopcomponent

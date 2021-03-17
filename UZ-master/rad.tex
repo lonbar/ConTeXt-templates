@@ -1,0 +1,43 @@
+\startproduct rad
+
+    \environment layout-thesis
+
+    \startfrontmatter
+    
+        \component frontmatter/Naslovnica
+        \component frontmatter/Deklaracija
+        \component frontmatter/Formular
+        \resetnumber    [userpagenumber]
+
+        \completecontent[criterium=all]
+        \completelistoffigures
+        \completelistoftables
+        \component frontmatter/Popis-tehničke-dokumentacije
+        \component frontmatter/Popis-oznaka
+
+        \component frontmatter/Sažetak
+        \component frontmatter/Summary
+
+    \stopfrontmatter
+    
+    \startbodymatter
+ 
+        \component bodymatter/Uvod
+        \component bodymatter/Podnaslov-uvoda
+        \component bodymatter/Naslov-poglavlja
+        \component bodymatter/Upute 
+        \component bodymatter/Zaključak
+   
+    \stopbodymatter
+     
+    %\startappendices
+    %\stopappendices
+   
+    \startbackmatter
+        
+        \component backmatter/Literatura
+        \component backmatter/Prilozi
+
+    \stopbackmatter
+
+\stopproduct

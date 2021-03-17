@@ -1,0 +1,92 @@
+\startenvironment layout-thesis
+
+    \setuppapersize[A4][A4]
+    \setuplayout[backspace=2.5cm,topspace=1.8cm,header=1.5cm,height=25cm,width=middle]
+
+    \mainlanguage[hr]
+    \language[hr]
+    \setupbodyfont[libertinus,12pt]
+    
+    \setuppagenumbering[location=]
+    \definestructureconversionset[frontpart:pagenumber][][Romannumerals]
+    
+    \setupformula
+        [align=right,
+         leftmargin=1.3em]
+         
+    \setuphead
+        [chapter]
+        [textstyle={\tfc\cap\bf},
+         numberstyle=]
+    
+    \setuphead
+        [section]
+        [textstyle=\bf,
+         numberstyle=\bf]
+    
+    \setuphead
+        [subsection]
+        [textstyle={\boldslanted},
+         numberstyle={\boldslanted}]
+    
+    \setuphead
+        [subsubsection]
+        [textstyle=\slanted,
+         numberstyle=\slanted]
+
+    \setupheader
+      [text]
+      [before={\startframed[frame=off,bottomframe=on,framecolor=black,]},
+       after={\stopframed},
+      ]
+    
+    \setupfooter
+      [text]
+      [before={\startframed[frame=off,topframe=on,framecolor=black,]},
+       after={\stopframed},
+      ]
+    
+    \setupcaptions[table][location=top]
+    \setupcaptions[figure][location=bottom]
+     
+    \definereferenceformat[eqref]   [left=(,right=)]
+    \definereferenceformat[secref]  %[left=podnaslov ]
+    \definereferenceformat[chapref] %[left=poglavlje ]
+    \definereferenceformat[appref]  %[left=dodatak ]
+    \definereferenceformat[figref]  %[left=slika ]
+    \definereferenceformat[tabref]  %[left=tablica ]
+     
+    \setupfootertexts
+        [\it Fakultet strojarstva i brodogradne]
+        [\it \userpagenumber]
+        [\it \userpagenumber]
+        [\it Fakultet strojarstva i brodogradne]
+    
+    \setupheadertexts
+        [\it Ime Prezime]
+        [\it Diplomski rad]
+        [\it Diplomski rad]
+        [\it Ime Prezime]
+    
+    \setupinteraction[state=start,
+                      style=normal,
+                      contrastcolor=blue,
+                      color=blue]
+
+\setuplist[alternative=c]
+
+\setupwhitespace[big]
+
+\startsectionblockenvironment [bodypart]
+  \setcounter [userpage] [1]
+\stopsectionblockenvironment
+
+\usebtxdataset
+    [resources/bib/bibliografija.bib]
+
+\usebtxdefinitions[aps]
+
+\setupheadtext[tables=Popis tablica]
+\setupheadtext[figures=Popis slika]
+
+\stopenvironment

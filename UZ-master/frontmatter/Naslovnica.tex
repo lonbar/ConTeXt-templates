@@ -1,0 +1,49 @@
+\startcomponent Naslovnica
+
+    \product rad
+
+    \startstandardmakeup
+
+        \startalignment[middle]
+            {\tfb\cap Sveučilište u Zagrebu \\ Fakultet strojarstva i brodogradnje}
+        \stopalignment
+        \raggedcenter
+        \vfill
+        \setstrut \strut {\tfd\bf\cap{Diplomski Rad}}
+        \vfill
+        \setstrut \strut \startalignment[flushright] \bf Ime Prezime\stopalignment
+        \vfill
+        \definedfont[Serif]
+        \setstrut\strut Zagreb, godina.
+    
+    \stopmakeup
+      
+    \startstandardmakeup
+
+        \startalignment[middle]
+            {\tfb\cap Sveučilište u Zagrebu \\ Fakultet strojarstva i brodogradnje}
+        \stopalignment
+        \raggedcenter
+        \vfill
+        \setstrut \strut {\tfd\bf\cap{Diplomski Rad}}
+        \vfill
+        \setstrut \strut 
+        \bTABLE[frame=off]
+           \setupTABLE[column][1]  [width=8cm,align=flushleft]
+           \setupTABLE[column][2]  [width=8cm,align=flushright]
+            \bTR
+                \bTD Mentori: \eTD
+                \bTD Student: \eTD
+            \eTR
+            \bTR
+                \bTD Prod. dr. sc. Ime Prezime, dipl. ing. \\ Dr. sc. Ime Prezime, dipl. ing.\eTD
+                \bTD Ime Prezime \eTD
+            \eTR
+        \eTABLE
+        \vfill
+        \definedfont[Serif]
+        \setstrut\strut Zagreb, godina.
+    
+    \stopmakeup
+
+\stopcomponent

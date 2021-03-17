@@ -1,0 +1,39 @@
+\startcomponent
+    
+    \product rad
+
+    \startchapter[title=Uvod]
+
+        Tekst uvoda \cite[Einstein:1905].
+
+        \startsection[title=Podnaslov uvoda]
+            Tekst slika \figref[fig-1]. 
+            U potpisu slike razmak između brojke i teksta definirati s tipkom \quotation{Tab}.
+            \placefigure
+                []
+                [fig-1]
+                {Kako opisati}
+                {\externalfigure[resources/pdf/cow.pdf][width=0.4\textwidth]}
+            %more information here: https://wiki.contextgarden.net/Floating_Objects
+
+        \stopsection
+
+        \startsection[title=Podnaslov uvoda]
+
+            Tekst slika \figref[fig-2]
+            \placefigure
+                [force]
+                [fig-2]
+                {Kako ubaciti referencu slike u tekst}
+                {\externalfigure[resources/pdf/cow.pdf][width=0.4\textwidth]}
+            Tekst vezan uz nabrajanje:
+            \startitemize[n]
+                \item Navod 1
+                \item Navod 2
+            \stopitemize
+
+        \stopsection
+
+    \stopchapter
+
+\stopcomponent

@@ -1,0 +1,61 @@
+\startcomponent Podnaslov-uvoda
+
+    \product rad
+
+    \startchapter[title=Naslov poglavlja]
+        
+        \startsection[title=Podnaslov]
+            
+            Tekst
+
+            Tekst vezan uz nabrajanje:
+            \startitemize
+                \item Navod 1
+                \item Navod 2
+            \stopitemize
+
+            Tekst slika \figref[fig-3]
+            \placefigure
+                []
+                [fig-3]
+                {Kako ubaciti referencu tablice u tekst}
+                {\externalfigure[resources/pdf/cow.pdf][width=0.4\textwidth]}
+
+        \stopsection
+
+        \startsection[title=Podnaslov]
+            Tekst tablica \tabref[Tablica] \cite[Newton:1687]. 
+            U natpisu tablice razmak između brojke i teksta definirati s tipkom \quotation{Tab}
+            \placetable
+                []
+                [Tablica]
+                {Naziv (kratki opis) tablice}
+                {
+                \bTABLE
+                    \bTR 
+                        \bTD 1 \eTD
+                        \bTD 2 \eTD 
+                        \bTD 4 \eTD 
+                    \eTR
+                    \bTR
+                        \bTD 1 \eTD
+                        \bTD 2 \eTD
+                        \bTD 3 \eTD
+                    \eTR
+                    \bTR
+                        \bTD 1 \eTD 
+                        \bTD 2 \eTD
+                        \bTD 4 \eTD
+                    \eTR
+                \eTABLE}
+            Tekst vezan uz nabrajanje:
+            \startitemize[a]
+                \item Navod 1
+                \item Navod 2
+            \stopitemize
+
+        \stopsection
+
+    \stopchapter
+
+\stopcomponent

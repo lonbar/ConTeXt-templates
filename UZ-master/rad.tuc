@@ -1,0 +1,1483 @@
+local utilitydata = { }
+
+utilitydata.comment={
+ ["escape"]="[===[ ... ]===]",
+ ["file"]="rad",
+ ["format"]="cont-en",
+ ["stamp"]="2019.03.21 21:39",
+ ["version"]=1.31,
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.checksums={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.collected={
+ ["macros"]={},
+ ["randomseed"]=0.97866436559707,
+ ["sectionblockorder"]={ "frontpart", "bodypart", "backpart" },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.structure then utilitydata.job.structure = { } end
+
+utilitydata.job.structure.collected={
+ ["branches"]={
+  {
+   ["branches"]={
+    {
+     ["branches"]={},
+     ["name"]="layout-thesis",
+     ["type"]="environment",
+    },
+    {
+     ["branches"]={},
+     ["name"]="Naslovnica",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="Deklaracija",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="Formular",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="Popis-tablica",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="Popis-oznaka",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="Sažetak",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="Summary",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="\\product rad",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="Podnaslov-uvoda",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="Naslov-poglavlja",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="Upute",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="Zaključak",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="Literatura",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="Prolozi",
+     ["type"]="component",
+    },
+   },
+   ["name"]="rad",
+   ["type"]="product",
+  },
+ },
+ ["name"]="",
+ ["type"]="text",
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.positions then utilitydata.job.positions = { } end
+
+utilitydata.job.positions.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.passes then utilitydata.job.passes = { } end
+
+utilitydata.job.passes.collected={
+ ["itemgroup:itemize:1"]={
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:2"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:3"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:4"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:5"]={
+  { 2, 0 },
+ },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.datasets then utilitydata.job.datasets = { } end
+
+utilitydata.job.datasets.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
+
+utilitydata.job.pagestates.collected={
+ ["float"]={ 12, 12, 13, 13, 14, 15 },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.specials then utilitydata.structures.specials = { } end
+
+utilitydata.structures.specials.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.sections then utilitydata.structures.sections = { } end
+
+utilitydata.structures.sections.collected={
+ {
+  ["block"]="frontpart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="hr",
+  ["numbers"]=1,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="frontpart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="hr",
+  ["numbers"]=2,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="frontpart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="hr",
+  ["numbers"]=3,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="frontpart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="hr",
+  ["numbers"]=4,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="hr",
+  ["numbers"]=1,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="hr",
+  ["numbers"]=5,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="hr",
+  ["numbers"]=6,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="hr",
+  ["numbers"]=2,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="hr",
+  ["numbers"]=7,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="hr",
+  ["numbers"]=8,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="hr",
+  ["numbers"]=3,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="hr",
+  ["numbers"]=9,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="hr",
+  ["numbers"]=10,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="hr",
+  ["numbers"]=11,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="hr",
+  ["numbers"]=4,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="hr",
+  ["numbers"]=12,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="backpart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="hr",
+  ["numbers"]=1,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="backpart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="hr",
+  ["numbers"]=2,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.counters then utilitydata.structures.counters = { } end
+
+utilitydata.structures.counters.collected={
+ ["chemical"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["combination"]={
+  { 0 },
+ },
+ ["endnote"]={
+  { 0 },
+ },
+ ["figure"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0 },
+ },
+ ["footnote"]={
+  { 0 },
+ },
+ ["formula"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["graphic"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["intermezzo"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["itemgroup:itemize"]={
+  { 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2 },
+ },
+ ["linenote"]={
+  { 0 },
+ },
+ ["paragraph"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["realpage"]={
+  { 18 },
+ },
+ ["subpage"]={
+  { 18 },
+ },
+ ["table"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["userpage"]={
+  { 7 },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.lists then utilitydata.structures.lists = { } end
+
+utilitydata.structures.lists.collected={
+ {
+  ["metadata"]=13,
+  ["numberdata"]=15,
+  ["references"]={
+   ["block"]="frontpart",
+   ["internal"]=1,
+   ["realpage"]=5,
+   ["reference"]="content",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["bookmark"]="content",
+   ["title"]="\\headtext {content}",
+  },
+ },
+ {
+  ["metadata"]=13,
+  ["numberdata"]=15,
+  ["references"]={
+   ["block"]="frontpart",
+   ["internal"]=2,
+   ["realpage"]=6,
+   ["reference"]="figure",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["bookmark"]="figures",
+   ["title"]="\\headtext {figures}",
+  },
+ },
+ {
+  ["metadata"]=13,
+  ["numberdata"]=15,
+  ["references"]={
+   ["block"]="frontpart",
+   ["internal"]=3,
+   ["realpage"]=7,
+   ["reference"]="table",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["bookmark"]="tables",
+   ["title"]="\\headtext {tables}",
+  },
+ },
+ {
+  ["metadata"]=16,
+  ["numberdata"]=17,
+  ["references"]={
+   ["block"]="frontpart",
+   ["component"]="Popis-tablica",
+   ["internal"]=4,
+   ["realpage"]=8,
+   ["section"]=1,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Popis tehničke dokumentacije",
+  },
+ },
+ {
+  ["metadata"]=16,
+  ["numberdata"]=18,
+  ["references"]={
+   ["block"]="frontpart",
+   ["component"]="Popis-oznaka",
+   ["internal"]=5,
+   ["realpage"]=9,
+   ["section"]=2,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Popis oznaka",
+  },
+ },
+ {
+  ["metadata"]=16,
+  ["numberdata"]=19,
+  ["references"]={
+   ["block"]="frontpart",
+   ["component"]="Sažetak",
+   ["internal"]=6,
+   ["realpage"]=10,
+   ["section"]=3,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Sažetak",
+  },
+ },
+ {
+  ["metadata"]=16,
+  ["numberdata"]=20,
+  ["references"]={
+   ["block"]="frontpart",
+   ["component"]="Summary",
+   ["internal"]=7,
+   ["realpage"]=11,
+   ["section"]=4,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Summary",
+  },
+ },
+ {
+  ["metadata"]=21,
+  ["references"]={
+   ["component"]="\\product rad",
+   ["internal"]=9,
+   ["realpage"]=12,
+   ["section"]=5,
+  },
+  ["userdata"]={
+   ["btxint"]="1",
+   ["btxref"]="Einstein:1905",
+  },
+ },
+ {
+  ["metadata"]=16,
+  ["numberdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="\\product rad",
+   ["internal"]=8,
+   ["realpage"]=12,
+   ["section"]=5,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Uvod",
+  },
+ },
+ {
+  ["metadata"]=23,
+  ["numberdata"]=24,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="\\product rad",
+   ["internal"]=10,
+   ["realpage"]=12,
+   ["section"]=6,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Podnaslov uvoda",
+  },
+ },
+ {
+  ["metadata"]=25,
+  ["numberdata"]=27,
+  ["prefixdata"]=28,
+  ["references"]={
+   ["component"]="\\product rad",
+   ["internal"]=11,
+   ["realpage"]=12,
+   ["reference"]="fig-1",
+   ["section"]=6,
+   ["used"]="fit",
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Kako opisati",
+  },
+ },
+ {
+  ["metadata"]=23,
+  ["numberdata"]=29,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="\\product rad",
+   ["internal"]=12,
+   ["realpage"]=12,
+   ["section"]=7,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Podnaslov uvoda",
+  },
+ },
+ {
+  ["metadata"]=25,
+  ["numberdata"]=31,
+  ["prefixdata"]=28,
+  ["references"]={
+   ["component"]="\\product rad",
+   ["internal"]=13,
+   ["realpage"]=12,
+   ["reference"]="fig-2",
+   ["section"]=7,
+   ["used"]="fit",
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Kako ubaciti referencu slike u tekst",
+  },
+ },
+ {
+  ["metadata"]=32,
+  ["references"]={
+   ["component"]="Podnaslov-uvoda",
+   ["internal"]=18,
+   ["realpage"]=13,
+   ["section"]=10,
+  },
+  ["userdata"]={
+   ["btxint"]="2",
+   ["btxref"]="Newton:1687",
+  },
+ },
+ {
+  ["metadata"]=16,
+  ["numberdata"]=33,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="Podnaslov-uvoda",
+   ["internal"]=14,
+   ["realpage"]=13,
+   ["section"]=8,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Naslov poglavlja",
+  },
+ },
+ {
+  ["metadata"]=23,
+  ["numberdata"]=34,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="Podnaslov-uvoda",
+   ["internal"]=15,
+   ["realpage"]=13,
+   ["section"]=9,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Podnaslov",
+  },
+ },
+ {
+  ["metadata"]=25,
+  ["numberdata"]=27,
+  ["prefixdata"]=28,
+  ["references"]={
+   ["component"]="Podnaslov-uvoda",
+   ["internal"]=16,
+   ["realpage"]=13,
+   ["reference"]="fig-3",
+   ["section"]=9,
+   ["used"]="fit",
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Kako ubaciti referencu tablice u tekst",
+  },
+ },
+ {
+  ["metadata"]=23,
+  ["numberdata"]=35,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="Podnaslov-uvoda",
+   ["internal"]=17,
+   ["realpage"]=13,
+   ["section"]=10,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Podnaslov",
+  },
+ },
+ {
+  ["metadata"]=36,
+  ["numberdata"]=37,
+  ["prefixdata"]=28,
+  ["references"]={
+   ["component"]="Podnaslov-uvoda",
+   ["internal"]=19,
+   ["realpage"]=13,
+   ["reference"]="Tablica",
+   ["section"]=10,
+   ["used"]="fit",
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Naziv (kratki opis) tablice",
+  },
+ },
+ {
+  ["metadata"]=38,
+  ["references"]={
+   ["component"]="Naslov-poglavlja",
+   ["internal"]=25,
+   ["realpage"]=14,
+   ["section"]=14,
+  },
+  ["userdata"]={
+   ["btxint"]="3",
+   ["btxref"]="Maxwell:1861",
+  },
+ },
+ {
+  ["metadata"]=16,
+  ["numberdata"]=39,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="Naslov-poglavlja",
+   ["internal"]=20,
+   ["realpage"]=14,
+   ["section"]=11,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Naslov poglavlja",
+  },
+ },
+ {
+  ["metadata"]=23,
+  ["numberdata"]=40,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="Naslov-poglavlja",
+   ["internal"]=21,
+   ["realpage"]=14,
+   ["section"]=12,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Podnaslov",
+  },
+ },
+ {
+  ["metadata"]=41,
+  ["numberdata"]=42,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="Naslov-poglavlja",
+   ["internal"]=22,
+   ["realpage"]=14,
+   ["section"]=13,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Podpodnaslov",
+  },
+ },
+ {
+  ["metadata"]=43,
+  ["numberdata"]=44,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="Naslov-poglavlja",
+   ["internal"]=23,
+   ["realpage"]=14,
+   ["section"]=14,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="subsubsection",
+   ["title"]="Podpodpodnaslov",
+  },
+ },
+ {
+  ["metadata"]=45,
+  ["numberdata"]=46,
+  ["prefixdata"]=28,
+  ["references"]={
+   ["component"]="Naslov-poglavlja",
+   ["internal"]=24,
+   ["realpage"]=14,
+   ["reference"]="1",
+   ["section"]=14,
+   ["used"]="fit",
+   ["view"]="fit",
+  },
+ },
+ {
+  ["metadata"]=47,
+  ["numberdata"]=27,
+  ["prefixdata"]=28,
+  ["references"]={
+   ["component"]="Naslov-poglavlja",
+   ["internal"]=26,
+   ["realpage"]=14,
+   ["reference"]="slika",
+   ["section"]=14,
+   ["used"]="fit",
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Kako ubaciti referencu jednadžbe u tekst",
+  },
+ },
+ {
+  ["metadata"]=45,
+  ["numberdata"]=48,
+  ["prefixdata"]=28,
+  ["references"]={
+   ["component"]="Naslov-poglavlja",
+   ["internal"]=27,
+   ["realpage"]=14,
+   ["reference"]="2",
+   ["section"]=14,
+   ["used"]="fit",
+   ["view"]="fit",
+  },
+ },
+ {
+  ["metadata"]=16,
+  ["numberdata"]=49,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="Upute",
+   ["internal"]=28,
+   ["realpage"]=15,
+   ["section"]=15,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Upute za osvježavanje (ažurinanje) popisa tablica",
+  },
+ },
+ {
+  ["metadata"]=50,
+  ["numberdata"]=27,
+  ["prefixdata"]=28,
+  ["references"]={
+   ["component"]="Upute",
+   ["internal"]=29,
+   ["realpage"]=15,
+   ["reference"]="even-more-cow",
+   ["section"]=15,
+   ["used"]="fit",
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Kako osvježiti (ažurirati) popise tablica, slika, sadržaja",
+  },
+ },
+ {
+  ["metadata"]=16,
+  ["numberdata"]=51,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="Zaključak",
+   ["internal"]=30,
+   ["realpage"]=16,
+   ["section"]=16,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Zaključak",
+  },
+ },
+ {
+  ["metadata"]=16,
+  ["numberdata"]=52,
+  ["references"]={
+   ["block"]="backpart",
+   ["component"]="Literatura",
+   ["internal"]=31,
+   ["realpage"]=17,
+   ["section"]=17,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Literatura",
+  },
+ },
+ {
+  ["metadata"]=16,
+  ["numberdata"]=53,
+  ["references"]={
+   ["block"]="backpart",
+   ["component"]="Prolozi",
+   ["internal"]=35,
+   ["realpage"]=18,
+   ["section"]=18,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Prilozi",
+  },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.pages then utilitydata.structures.pages = { } end
+
+utilitydata.structures.pages.collected={
+ {
+  ["block"]="frontpart",
+  ["number"]=1,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="stop",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=1,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="stop",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=1,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="stop",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=1,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="stop",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=1,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=2,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=3,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=4,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=5,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=6,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="start",
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=7,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=1,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=2,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=3,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=4,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=5,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="start",
+ },
+ {
+  ["block"]="backpart",
+  ["number"]=6,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="start",
+ },
+ {
+  ["block"]="backpart",
+  ["number"]=7,
+  ["numberdata"]=54,
+  ["prefixdata"]=55,
+  ["state"]="start",
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.collected={
+ ["Literatura"]={
+  ["btx::list::1"]={
+   ["entries"]={
+    ["text"]="1",
+   },
+   ["metadata"]=56,
+   ["references"]={
+    ["block"]="backpart",
+    ["internal"]=32,
+    ["prefix"]="Literatura",
+    ["realpage"]=17,
+    ["reference"]="btx::list::1",
+    ["section"]=17,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+   ["userdata"]={
+    ["btxint"]="1",
+    ["btxlst"]="1",
+    ["btxref"]="Einstein:1905",
+    ["btxspc"]="aps",
+   },
+  },
+  ["btx::list::2"]={
+   ["entries"]={
+    ["text"]="2",
+   },
+   ["metadata"]=56,
+   ["references"]={
+    ["block"]="backpart",
+    ["internal"]=33,
+    ["prefix"]="Literatura",
+    ["realpage"]=17,
+    ["reference"]="btx::list::2",
+    ["section"]=17,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+   ["userdata"]={
+    ["btxint"]="2",
+    ["btxlst"]="2",
+    ["btxref"]="Newton:1687",
+    ["btxspc"]="aps",
+   },
+  },
+  ["btx::list::3"]={
+   ["entries"]={
+    ["text"]="3",
+   },
+   ["metadata"]=56,
+   ["references"]={
+    ["block"]="backpart",
+    ["internal"]=34,
+    ["prefix"]="Literatura",
+    ["realpage"]=17,
+    ["reference"]="btx::list::3",
+    ["section"]=17,
+    ["used"]="fit",
+    ["view"]="fit",
+   },
+   ["userdata"]={
+    ["btxint"]="3",
+    ["btxlst"]="3",
+    ["btxref"]="Maxwell:1861",
+    ["btxspc"]="aps",
+   },
+  },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.referred={
+ { 5, 1 },
+ { 6, 19 },
+ { 7, 24 },
+ { 12, 25 },
+ { 12, 27 },
+ { 12, 29 },
+ { 13, 31 },
+ { 13, 33 },
+ { 14, 36 },
+ { 14, 39 },
+ { 14, 41 },
+ { 17, 42 },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.objects then utilitydata.job.objects = { } end
+
+utilitydata.job.objects.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.synonyms then utilitydata.structures.synonyms = { } end
+
+utilitydata.structures.synonyms.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.registers then utilitydata.structures.registers = { } end
+
+utilitydata.structures.registers.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.blocks then utilitydata.structures.blocks = { } end
+
+utilitydata.structures.blocks.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.files then utilitydata.job.files = { } end
+
+utilitydata.job.files.collected={
+}
+
+if not utilitydata.publications then utilitydata.publications = { } end
+
+utilitydata.publications.collected={
+ ["default"]={
+  ["datasources"]={
+   {
+    ["checksum"]="AD40A1B37EEDE7BEB791250767E1EFEF",
+    ["filename"]="resources/bib/bibliografija.bib",
+   },
+  },
+  ["usersource"]={},
+ },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.fileobjreferences then utilitydata.job.fileobjreferences = { } end
+
+utilitydata.job.fileobjreferences.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.embedded then utilitydata.job.embedded = { } end
+
+utilitydata.job.embedded.collected={
+}
+
+utilitydata.job.packed={
+ ["index"]={
+  { 0, 1 },
+  { 0, 2 },
+  { 0, 3 },
+  { 0, 4 },
+  { 0, 1, 1 },
+  { 0, 1, 2 },
+  { 0, 2, 1 },
+  { 0, 2, 2 },
+  { 0, 3, 1 },
+  { 0, 3, 1, 1 },
+  { 0, 3, 1, 1, 1 },
+  { 0, 5 },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="section",
+   ["level"]=2,
+   ["name"]="title",
+   ["nolist"]=true,
+  },
+  { 0, 0 },
+  {
+   ["block"]="frontpart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="hr",
+   ["numbers"]=14,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["level"]=2,
+   ["name"]="chapter",
+  },
+  {
+   ["block"]="frontpart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="hr",
+   ["numbers"]=1,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["block"]="frontpart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="hr",
+   ["numbers"]=2,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["block"]="frontpart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="hr",
+   ["numbers"]=3,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["block"]="frontpart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="hr",
+   ["numbers"]=4,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["kind"]="btx",
+   ["level"]=2,
+   ["name"]="btx",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="hr",
+   ["numbers"]=1,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["level"]=3,
+   ["name"]="section",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="hr",
+   ["numbers"]=5,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="float",
+   ["level"]=3,
+   ["name"]="figure",
+  },
+  { 1 },
+  {
+   ["conversionset"]="number",
+   ["counter"]="figure",
+   ["numbers"]=26,
+  },
+  {
+   ["connector"]=".",
+   ["prefix"]="yes",
+   ["segments"]="2:2",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="hr",
+   ["numbers"]=6,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  { 2 },
+  {
+   ["conversionset"]="number",
+   ["counter"]="figure",
+   ["numbers"]=30,
+  },
+  {
+   ["catcodes"]=8,
+   ["kind"]="btx",
+   ["level"]=3,
+   ["name"]="btx",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="hr",
+   ["numbers"]=2,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="hr",
+   ["numbers"]=7,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="hr",
+   ["numbers"]=8,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="float",
+   ["level"]=3,
+   ["name"]="table",
+  },
+  {
+   ["conversionset"]="number",
+   ["counter"]="table",
+   ["numbers"]=26,
+  },
+  {
+   ["catcodes"]=8,
+   ["kind"]="btx",
+   ["level"]=5,
+   ["name"]="btx",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="hr",
+   ["numbers"]=3,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="hr",
+   ["numbers"]=9,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["level"]=4,
+   ["name"]="subsection",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="hr",
+   ["numbers"]=10,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["level"]=5,
+   ["name"]="subsubsection",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="hr",
+   ["numbers"]=11,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="formula",
+   ["level"]=5,
+   ["name"]="formula",
+  },
+  {
+   ["conversionset"]="formula",
+   ["counter"]="formula",
+   ["numbers"]=26,
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="float",
+   ["level"]=5,
+   ["name"]="figure",
+  },
+  {
+   ["conversionset"]="formula",
+   ["counter"]="formula",
+   ["numbers"]=30,
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="hr",
+   ["numbers"]=4,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="float",
+   ["level"]=2,
+   ["name"]="figure",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="hr",
+   ["numbers"]=12,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["block"]="backpart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="hr",
+   ["numbers"]=1,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["block"]="backpart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="hr",
+   ["numbers"]=2,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["conversionset"]="pagenumber",
+  },
+  {
+   ["connector"]="–",
+   ["prefix"]="no",
+   ["set"]="part",
+  },
+  {
+   ["kind"]="full",
+  },
+ },
+ ["keys"]={
+  ["directives"]=true,
+  ["metadata"]=true,
+  ["numberdata"]=true,
+  ["numbers"]=true,
+  ["ownnumbers"]=true,
+  ["pagedata"]=true,
+  ["prefixdata"]=true,
+  ["processors"]=true,
+  ["sectiondata"]=true,
+  ["specification"]=true,
+ },
+ ["skip"]={
+  ["datasets"]=true,
+  ["positions"]=true,
+  ["userdata"]=true,
+ },
+ ["version"]=1.02,
+}
+
+return utilitydata
