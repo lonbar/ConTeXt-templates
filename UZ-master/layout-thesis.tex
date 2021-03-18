@@ -1,7 +1,11 @@
 \startenvironment layout-thesis
 
     \setuppapersize[A4][A4]
-    \setuplayout[backspace=2.5cm,topspace=1.8cm,header=1.5cm,height=25cm,width=middle]
+    \setuplayout[backspace=2.5cm,
+                 topspace=1.8cm,
+                 header=1.5cm,
+                 height=25cm,
+                 width=middle]
 
     \mainlanguage[hr]
     \language[hr]
@@ -57,16 +61,16 @@
     \definereferenceformat[tabref]  %[left=tablica ]
      
     \setupfootertexts
-        [\it Fakultet strojarstva i brodogradne]
+        [\it \getvariable{meta}{fakultet}]
         [\it \userpagenumber]
         [\it \userpagenumber]
-        [\it Fakultet strojarstva i brodogradne]
+        [\it \getvariable{meta}{fakultet}]
     
     \setupheadertexts
-        [\it Ime Prezime]
-        [\it Diplomski rad]
-        [\it Diplomski rad]
-        [\it Ime Prezime]
+        [\it \getvariable{meta}{ime}]
+        [\it \getvariable{meta}{naslov}]
+        [\it \getvariable{meta}{naslov}]
+        [\it \getvariable{meta}{ime}]
     
     \setupinteraction[state=start,
                       style=normal,

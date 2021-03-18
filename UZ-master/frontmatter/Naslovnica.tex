@@ -5,27 +5,27 @@
     \startstandardmakeup
 
         \startalignment[middle]
-            {\tfb\cap Sveučilište u Zagrebu \\ Fakultet strojarstva i brodogradnje}
+            {\tfb\cap Sveučilište u Zagrebu \\ \getvariable{meta}{fakultet}}
         \stopalignment
         \raggedcenter
         \vfill
-        \setstrut \strut {\tfd\bf\cap{Diplomski Rad}}
+        \setstrut \strut {\tfd\bf\cap{\getvariable{meta}{naslov}}}
         \vfill
-        \setstrut \strut \startalignment[flushright] \bf Ime Prezime\stopalignment
+        \setstrut \strut \startalignment[flushright] \bf \getvariable{meta}{ime} \stopalignment
         \vfill
         \definedfont[Serif]
-        \setstrut\strut Zagreb, godina.
+        \setstrut\strut Zagreb, \getvariable{meta}{godina}.
     
     \stopmakeup
       
     \startstandardmakeup
 
         \startalignment[middle]
-            {\tfb\cap Sveučilište u Zagrebu \\ Fakultet strojarstva i brodogradnje}
+            {\tfb\cap Sveučilište u Zagrebu \\ \getvariable{meta}{fakultet}}
         \stopalignment
         \raggedcenter
         \vfill
-        \setstrut \strut {\tfd\bf\cap{Diplomski Rad}}
+        \setstrut \strut {\tfd\bf\cap{\getvariable{meta}{naslov}}}
         \vfill
         \setstrut \strut 
         \bTABLE[frame=off]
@@ -36,13 +36,13 @@
                 \bTD Student: \eTD
             \eTR
             \bTR
-                \bTD Prod. dr. sc. Ime Prezime, dipl. ing. \\ Dr. sc. Ime Prezime, dipl. ing.\eTD
-                \bTD Ime Prezime \eTD
+                \bTD \getvariable{meta}{mentor} \\ Dr. sc. Ime Prezime, dipl. ing.\eTD
+                \bTD \getvariable{meta}{ime} \eTD
             \eTR
         \eTABLE
         \vfill
         \definedfont[Serif]
-        \setstrut\strut Zagreb, godina.
+        \setstrut\strut Zagreb, \getvariable{meta}{godina}.
     
     \stopmakeup
 
