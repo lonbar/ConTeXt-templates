@@ -38,11 +38,12 @@
         [textstyle=\slanted,
          numberstyle=\slanted]
 
-    \setupheader
-      [text]
-      [before={\startframed[frame=off,bottomframe=on,framecolor=black,]},
-       after={\stopframed},
-      ]
+    % draws a line on the form page
+    %\setupheader
+    %  [text]
+    %  [before={\startframed[frame=off,bottomframe=on,framecolor=black,]},
+    %   after={\stopframed},
+    %  ]
     
     \setupfooter
       [text]
@@ -65,7 +66,16 @@
         [\it \userpagenumber]
         [\it \userpagenumber]
         [\it \getvariable{meta}{fakultet}]
-    
+
+    %sets the header after the form
+    \startsetups[mainheader]
+        \it
+        \getvariable{meta}{ime}
+        \hfill
+        \getvariable{meta}{naslov}
+    \stopsetups
+
+    %resets the headerin the body text
     \setupheadertexts
         [\it \getvariable{meta}{ime}]
         [\it \getvariable{meta}{naslov}]
@@ -93,4 +103,20 @@
 \setupheadtext[tables=Popis tablica]
 \setupheadtext[figures=Popis slika]
 
+\startreusableMPgraphic {page:background}
+         
+    StartPage ;
+    
+    numeric w ; w := bbwidth(Page) ;
+    numeric h ; h := bbheight(Page) ;
+    
+    path p, q;
+    p := Field[RightMargin][Header];
+    q := Field[LeftMargin][Header];
+    draw externalfigure "resources/svg/University_of_Zagreb_logo.svg" scaled 0.21 shifted point 0 of p;%(LeftMarginWidth+TextWidth+LeftMarginDistance+0RightMarginDistance,BottomDistance+TextHeight+2HeaderHeight);% at(0.8w,0.85h);
+    draw externalfigure "resources/pdf/fsb_logo.pdf" scaled 0.3 shifted (point 0 of q + (0.35LeftMarginWidth,0));
+       
+\stopreusableMPgraphic
+        
+\defineoverlay [page:background][\reuseMPgraphic{page:background}]
 \stopenvironment

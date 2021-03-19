@@ -1,11 +1,110 @@
 \startcomponent Formular
 
     \product rad
+        
+    \setupbackgrounds[page][background={page:background}]
+    \startsetups[headertext]
+        \startframed[frame=off,align=middle]
+            \WORDS{
+            \definedfont[Serif at 16pt]
+            Sveučilište u Zagrebu\\ 
+            \definedfont[SerifBold at 16pt]
+            \getvariable{meta}{fakultet}}
+        \stopframed
+    \stopsetups
+        
+    \setupheadertexts[\directsetup{headertext}]
+    \startstandardmakeup[headerstate=start]
 
-    \startstandardmakeup
-
-        \externalfigure[resources/pdf/form.pdf][page=1,width=\textwidth]
+        %\externalfigure[resources/pdf/form.pdf][page=1,width=\textwidth]
+    
+       
+            
+        \startalignment[middle]
+            \definedfont[Serif at 10pt]
+            Središnje povjerenstvo za završne i diplomske ispite\\
+            Povjerenstvo za diplomske ispite studija strojarstva za smjerove:\\
+            procesno-energetski, konstrukcijski, brodostrojarski i inženjersko modeliranje i računalne simulacije
+        \stopalignment
+        
+        \blank
+        
+        \startalignment[flushright]
+            \setupTABLE[width=0.25\textwidth]
+            \setupTABLE[row][1][align=middle]
+            \bTABLE
+                \bTR
+                    \bTD[nc=2]Sveučilište u Zagrebu \\
+                              \getvariable{meta}{fakultet}
+                    \eTD
+                \eTR
+                \bTR
+                    \bTD Datum:  \eTD
+                    \bTD Prilog: \eTD
+                \eTR
+                \bTR
+                    \bTD[nc=2] Klasa:   \eTD
+                \eTR
+                \bTR
+                    \bTD[nc=2] Ur.broj: \eTD
+                \eTR
+            \eTABLE
+        \stopalignment
+        
+        \blank[small]
+        
+        \startalignment[middle]
+            \definedfont[SerifBold at 16pt]
+            \WORDS{Diplomski Zadatak}
+        \stopalignment
+        
+        \blank
+        
+        \bTABLE
+            \setupTABLE[frame=off]
+            \setupTABLE[c][1][align=flushleft,width=3.5cm]
+            \setupTABLE[c][2][align=flushright,width=0.75\textwidth]
+            \bTR
+                \bTD Student: \eTD
+                \bTD[nr=4] Mat. br.:\eTD
+            \eTR
+            \bTR
+                \bTD Naslov rada na hrvatskom jeziku: \eTD
+            \eTR
+            \bTR
+                \bTD Naslov rada na engleskom jeziku: \eTD
+            \eTR
+            \bTR
+                \bTD Opis zadatka: \eTD
+            \eTR
+        \eTABLE
+        
+        \vfill
+        
+        \bTABLE
+            \setupTABLE[column][1][align=flushleft,width=0.33\textwidth]
+            \setupTABLE[column][2][align=middle,width=0.30\textwidth]
+            \setupTABLE[column][3][align=flushright,width=0.37\textwidth]
+            \setupTABLE[row][even][height=1em]
+            \setupTABLE[frame=off]
+            \bTR\bTD Zadatak zadan:             \eTD \bTD Rok predaje rada: \eTD\bTD Predviđeni datumi obrane:  \eTD \eTR
+            \bTR\bTD                            \eTD \bTD                   \eTD\bTD                            \eTD \eTR
+            \bTR\bTD Zadatak zadao:             \eTD \bTD                   \eTD\bTD Predsjednik Povjerenstva:  \eTD \eTR
+            \bTR\bTD                            \eTD \bTD                   \eTD\bTD                            \eTD \eTR
+            \bTR\bTD                            \eTD \bTD                   \eTD\bTD \getvariable{meta}{predsjednik}   \eTD \eTR
+        \eTABLE
+        
+        \blank
 
     \stopmakeup
+
+\setupbackgrounds [page] [background=]
+\setupheadertexts[\directsetup{mainheader}]
+\setupheader
+      [text]
+      [before={\startframed[frame=off,bottomframe=on,framecolor=black,]},
+       after={\stopframed},
+      ]
+    
 
 \stopcomponent
